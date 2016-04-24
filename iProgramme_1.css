@@ -6,9 +6,9 @@
 ul#signandlogin_ul
 {
 	color: white;
-	font-size: 1em;
+	font-size: 0.9em;
 	list-style-type: none;
-	margin:0 20px 0 0;
+	margin:0 50px 0 0;
 	/*vertical-align: center;css中无效*/
 	line-height: 60px;   /*line-height==div的height使得单行有垂直居中*/
 	float: right;	
@@ -17,8 +17,8 @@ ul#signandlogin_ul
 ul .signandlogin
 {
 	background-color:#333334; 
-	margin:0 1px;
-	padding:9px;
+	margin:0 8px;
+	padding:6px;
 	display: inline;
 	border-radius: 3px;
 }
@@ -42,6 +42,7 @@ a#signup:link,a#signup:visited
 {
 	margin: 30px auto;
 	width: 90%;
+	height: 75%;
 }
 .Notice_1
 {
@@ -56,6 +57,23 @@ a#signup:link,a#signup:visited
 	font-weight: bolder;
 	font-size: 1em;
 	margin-bottom: 10px;
+	float: left;
+}
+.notice_more
+{
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+	font-weight: bold;
+}
+.notice_more_a:hover,.notice_more_a:active
+{
+	color:#aaa; 
+}
+.notice_more_a
+{
+	color:#000;
+	text-decoration: none;
 }
 .Notice_1:hover
 {
@@ -65,21 +83,26 @@ a#signup:link,a#signup:visited
 /*公告模板*/
 .Notice_content
 {
-	margin: 40px 42px 0 0;
-	width: 270px;
+	
+	width: 250px;
 	height: 385px;
 	border: 1px solid #ddd;
 	box-shadow:1px 1px 1px #888;
-	float: left;	
+	border-radius: 5px;
 }
-.Notice_content4
+.notice_top
 {
-	margin: 40px 0 0 0;
-	width: 270px;
-	height: 385px;
-	border: 1px solid #ddd;
-	box-shadow:1px 1px 1px #888;
-	float: left;	
+	height: 50px;
+}
+#notice_ul
+{
+	list-style-type: none;
+}
+.notice_li
+{
+	margin: 30px 41px 0 0;
+	display: inline;
+	float: left;
 }
 .content_nav
 {
@@ -90,9 +113,26 @@ a#signup:link,a#signup:visited
 	background-color: #ddd;
 	border: 1px solid #ccc;
 	border-radius: 6px;
-	padding:0 15px;
+	padding:0 5px;
 	line-height: 35px;
 	color: black;
+}
+.content_knowmore
+{
+	margin: 0 auto;
+	margin-top:10px;
+	margin-bottom: 10px; 
+	text-align: center;
+	background-color: #ddd;
+	width: 5em;
+	border-radius: 5px;
+	padding: 6px 0;
+}
+.content_knowmore_a
+{
+	text-decoration: none;
+	color: #555;
+	font-size: 0.7em;
 }
 .speaker
 {
@@ -122,7 +162,18 @@ a#signup:link,a#signup:visited
 }
 .content_main
 {
-	width: 240px;
-	height: 250px;
+	width: 230px;
+	height: 240px;
 	margin:0 auto;
+	overflow: hidden;
+	color: #555;
+	text-align: center;	
+}
+
+/*以下是bottom*/
+#bottom
+{
+	clear: both;
+	height: 20px;
+	background-color: #ddd;
 }
