@@ -6,7 +6,19 @@
 	<link rel="stylesheet" type="text/css" href="../css/iProgramme_1.css">
 	<script src="../js/jquery.js"></script>
 	<script type="text/javascript">
-		
+		function openme(){
+        document.getElementById('login').style.display='block';
+        }
+        function closeme(){
+        document.getElementById('login').style.display='none';
+        }
+        function logo_in(){alert()
+        //验证
+        //转向...
+        //myform.action=""
+        //myform.submit()
+        closeme();
+        }
 	</script>
 </head>
 <body>
@@ -15,10 +27,31 @@
 			<img id="iprog" src="../image/iprogramme.png">
 		</a>
 		<ul id="signandlogin_ul">
-			<li class="signandlogin"><a id="login" href="Login.html">Log In</a></li>
-			<li class="signandlogin"><a id="signup" href="">Sign Up</a></li>
+			<li class="top_log" onclick="openme()">Log In</li>
+			<li class="top_sign">Sign Up</li>
 		</ul>
 	</div>
+
+
+	<div id="login">
+	    
+				<p style="background-color: #000 ;color:#fff ;height: 1.5em;line-height: 1.5em" >&nbsp;登陆账号
+				<input style="float: right;background-color: #fff;margin-top: 5px;margin-right: 5px" type="button" value="X" onclick="closeme()">
+				</p>	
+				<form style="margin: 20px;">
+					用户名
+					<input type="text" style="width: 20em;height: 2em">
+					<br/><br/>
+					密&nbsp;码
+					<input type="password" style="width: 20em;height: 2em">
+				</form>
+				<input type="button" value="取消" style="float: right;margin-right: 20px;font-weight: bold;font-size: 0.8em;margin-top: 20px" onclick="closeme()">
+				<input type="button" value="确认" style="float: right;margin-right: 20px;font-weight: bold;font-size: 0.8em;margin-top: 20px" onclick="logo_in()">
+
+	</div>
+
+
+
 	<div class="Notice">
 		<div class="notice_top">
 			<div class="Notice_1">公告</div>
@@ -34,7 +67,7 @@
 						</div>
 						<div class="content_title">11111</div>
 						<div class="content_main">
-						<p>水水水水水水水水水水水水水水水水水水水顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶水水水水水水水水水水水水水水水水水水水顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶水水水水水水水水水水水水水水水水水水水顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶</p>
+						
 						</div>
 						<div class="content_knowmore"><a class="content_knowmore_a" href="">查看详情</a></div>
 					</div>
@@ -47,7 +80,7 @@
 						</div>
 						<div class="content_title">11111</div>
 						<div class="content_main">
-							<p>水水水水水水水水水水水水水水水水水水水顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶水水水水水水水水水水水水水水水水水水水顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶水水水水水水水水水水水水水水水水水水水顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶</p>
+							
 						</div>
 						<div class="content_knowmore"><a class="content_knowmore_a" href="">查看详情</a></div>
 					</div>
