@@ -1,0 +1,128 @@
+*{margin:0}
+
+/*以下是top部分*/
+#Top{background:#000;height: 60px}
+
+ul#signandlogin_ul
+{
+	color: white;
+	font-size: 1em;
+	list-style-type: none;
+	margin:0 20px 0 0;
+	/*vertical-align: center;css中无效*/
+	line-height: 60px;   /*line-height==div的height使得单行有垂直居中*/
+	float: right;	
+	
+}
+ul .signandlogin
+{
+	background-color:#333334; 
+	margin:0 1px;
+	padding:9px;
+	display: inline;
+	border-radius: 3px;
+}
+ul .signandlogin:hover,ul .signandlogin:active
+{
+	background-color:#575758;
+}
+a#login:link,a#login:visited
+{
+	color: white;
+	text-decoration: none;
+}
+a#signup:link,a#signup:visited
+{
+	color: white;
+	text-decoration: none;
+}
+
+/* 以下是Notice部分*/
+.Notice
+{
+	margin: 30px auto;
+	width: 90%;
+}
+.Notice_1
+{
+
+	width: 4em;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 5px;
+	background-color: #444;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+.Notice_1:hover
+{
+	background-color: #666;
+}
+
+/*公告模板*/
+.Notice_content
+{
+	margin: 40px 42px 0 0;
+	width: 270px;
+	height: 385px;
+	border: 1px solid #ddd;
+	box-shadow:1px 1px 1px #888;
+	float: left;	
+}
+.Notice_content4
+{
+	margin: 40px 0 0 0;
+	width: 270px;
+	height: 385px;
+	border: 1px solid #ddd;
+	box-shadow:1px 1px 1px #888;
+	float: left;	
+}
+.content_nav
+{
+	width: 210px;
+	height: 30px;
+	margin:20px auto ;
+	margin-bottom: 0;
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding:0 15px;
+	line-height: 35px;
+	color: black;
+}
+.speaker
+{
+	width: 35px;
+	height: 30px;
+}
+.notice_img
+{
+	margin-left: 50px;
+	float: left;
+}
+.notice_class
+{
+
+	margin-left: 15px;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+.content_title
+{
+	font-weight: bold;
+	margin: 10px auto;
+	text-align: center;
+}
+.content_main
+{
+	width: 240px;
+	height: 250px;
+	margin:0 auto;
+}
