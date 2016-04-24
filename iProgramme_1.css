@@ -1,7 +1,10 @@
 *{margin:0}
-
+body
+{
+	background-color: #fffff4;
+}
 /*以下是top部分*/
-#Top{background:#000;height: 60px}
+#Top{background:#000;height: 65px}
 
 ul#signandlogin_ul
 {
@@ -110,12 +113,12 @@ a#signup:link,a#signup:visited
 	height: 30px;
 	margin:20px auto ;
 	margin-bottom: 0;
-	background-color: #ddd;
+	background-color: #aaa;
 	border: 1px solid #ccc;
 	border-radius: 6px;
 	padding:0 5px;
 	line-height: 35px;
-	color: black;
+	color: #222;
 }
 .content_knowmore
 {
@@ -123,7 +126,7 @@ a#signup:link,a#signup:visited
 	margin-top:10px;
 	margin-bottom: 10px; 
 	text-align: center;
-	background-color: #ddd;
+	background-color: #aaa;
 	width: 5em;
 	border-radius: 5px;
 	padding: 6px 0;
@@ -131,8 +134,12 @@ a#signup:link,a#signup:visited
 .content_knowmore_a
 {
 	text-decoration: none;
-	color: #555;
+	color: #222	;
 	font-size: 0.7em;
+}
+.content_knowmore:hover,.content_knowmore:active
+{
+	background-color: #999;
 }
 .speaker
 {
@@ -152,7 +159,7 @@ a#signup:link,a#signup:visited
 	height: 30px;
 	line-height: 30px;
 	font-weight: bold;
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 .content_title
 {
@@ -168,6 +175,8 @@ a#signup:link,a#signup:visited
 	overflow: hidden;
 	color: #555;
 	text-align: center;	
+	line-height: 1.6em;
+	font-size: 1em;
 }
 
 /*以下是bottom*/
