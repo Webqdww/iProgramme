@@ -19,16 +19,38 @@
         //myform.submit()
         closeme();
         }
+
+        function opensign(){
+        document.getElementById('sign').style.display='block';
+        }
+         function closesign(){
+        document.getElementById('sign').style.display='none';
+        }
+        function sign_up(){alert()
+        //验证
+        //转向...
+        //myform.action=""
+        //myform.submit()
+        closesign();
+        }
 	</script>
 </head>
 <body>
 	<div id="Top">
-		<a class="aiprog" href="Homepage.html">
-			<img id="iprog" src="../image/iprogramme.png">
+		<a style="float: left;text-decoration: none;color: white;margin-left: 15px" class="aiprog" href="Homepage.html">
+			<!--img id="iprog" src="../image/iprogramme.png"-->
+			<h2 style="letter-spacing: 3px">iProgramme</h2>
 		</a>
+		<ul id="top_nav">
+			<li class="top_student"><a id="Stu_a" href="">Student</a></li>
+			<li class="top_teacher"><a id="Tea_a" href="">Teacher</a></li>
+			<li class="top_administrator"><a id="Adm_a" href="">Admin</a></li>
+			<li class="top_resources"><a id="Res_a" href="">Resources</a></li>
+			<li class="top_personal"><a id="Per_a" href="">Personal</a></li>
+		</ul>
 		<ul id="signandlogin_ul">
 			<li class="top_log" onclick="openme()">Log In</li>
-			<li class="top_sign">Sign Up</li>
+			<li class="top_sign" onclick="opensign()">Sign Up</li>
 		</ul>
 	</div>
 
@@ -50,6 +72,25 @@
 
 	</div>
 
+	<div id="sign">
+	    
+				<p style="background-color: #000 ;color:#fff ;height: 1.5em;line-height: 1.5em" >&nbsp;注册账号
+				<input style="float: right;background-color: #f0f0f0;border:0;border-radius: 5px;height:22px;width:22px;margin-top: 5px;margin-right: 5px" type="button" value="X" onclick="closesign()">
+				</p>	
+				<form style="margin: 20px;font-weight: bold;font-size: 0.8em;">
+					用户名：<br/>
+					<input type="text" style="height:37px;width:300px;margin-top: 10px;font-size: 1em" placeholder="账号或邮箱地址">
+					<br/><br/>
+					密&nbsp;码：<br/>
+					<input type="password" style="width: 300px;height: 37px;margin-top: 10px;font-size: 1em" placeholder="请输入密码">
+					<br/><br/>
+					密&nbsp;码：<br/>
+					<input type="password" style="width: 300px;height: 37px;margin-top: 10px;font-size: 1em" placeholder="请再次输入密码">
+				</form>
+				<button value="取消" style="height:28px;width: 55px;border:0;float: right;margin-right: 20px;font-size: 0.7em;margin-top: 20px;background-color: #ddd" onclick="closesign()">取消</button>
+				<button value="确认" style="height:28px;width: 55px;border:0;float: right;margin-right: 20px;font-size: 0.7em;margin-top: 20px;background-color: #5753c3;color: white" onclick="sign_up()">确认</button>
+
+	</div>
 
 
 	<div class="Notice">

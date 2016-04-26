@@ -4,7 +4,7 @@ body
 	background-color: #fffff4;
 }
 /*以下是top部分*/
-#Top{background:#000;height: 65px}
+#Top{background:#000;height: 65px;line-height: 65px;}
 
 ul#signandlogin_ul
 {
@@ -13,10 +13,56 @@ ul#signandlogin_ul
 	list-style-type: none;
 	margin:0 50px 0 0;
 	/*vertical-align: center;css中无效*/
-	line-height: 60px;   /*line-height==div的height使得单行有垂直居中*/
+	   /*line-height==div的height使得单行有垂直居中*/
 	float: right;	
 	
 }
+
+
+#top_nav
+{
+	margin-left: 50px;
+	list-style-type: none;
+	height: 65px;
+	background-color: #000;
+	float: left;
+}
+#Stu_a ,#Tea_a,#Res_a,#Per_a,#Adm_a
+{
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.top_student,.top_teacher,.top_administrator,.top_resources,.top_personal
+{
+	margin-left: 10px;
+	padding-bottom: 18px;
+	display: inline;
+
+}
+.top_student:hover,.top_student:active
+{
+		border-bottom: 4px solid #00afe9;
+}
+.top_teacher:hover,.top_teacher:active
+{
+		border-bottom: 4px solid #38a750;
+}
+.top_administrator:hover,.top_administrator:active
+{
+		border-bottom: 4px solid #af45bc;
+}
+
+.top_resources:hover,.top_resources:active
+{
+		border-bottom: 4px solid #f70202;
+}
+.top_personal:hover,.top_personal:active
+{
+		border-bottom: 4px solid #26bc9a;
+}
+
+
 .top_sign,.top_log
 {
 	background-color:#333334; 
@@ -43,6 +89,19 @@ ul#signandlogin_ul
 	border: 1px solid #ccc;
 	background-color: #fffff4;
 }
+#sign
+{
+	display:none;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	width: 350px;
+	height: 410px;
+	border: 1px solid #ccc;
+	background-color: #fffff4;
+}
+
+
 
 /* 以下是Notice部分*/
 .Notice
