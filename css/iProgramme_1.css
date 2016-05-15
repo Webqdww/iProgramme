@@ -1,0 +1,257 @@
+*{margin:0}
+
+body
+{
+	background-color: #fffff4;
+}
+/*以下是top部分*/
+#Top{background:#000;height: 65px;line-height: 65px;}
+
+ul#signandlogin_ul
+{
+	color: white;
+	font-size: 0.9em;
+	list-style-type: none;
+	margin:0 50px 0 0;
+	/*vertical-align: center;css中无效*/
+	   /*line-height==div的height使得单行有垂直居中*/
+	float: right;	
+	
+}
+
+
+#top_nav
+{
+	margin-left: 50px;
+	list-style-type: none;
+	height: 65px;
+	background-color: #000;
+	float: left;
+}
+#Stu_a ,#Tea_a,#Res_a,#Per_a,#Adm_a
+{
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.top_student,.top_teacher,.top_administrator,.top_resources,.top_personal
+{
+	margin-left: 10px;
+	padding-bottom: 18px;
+	display: inline;
+
+}
+.top_student:hover,.top_student:active
+{
+		border-bottom: 4px solid #00afe9;
+}
+.top_teacher:hover,.top_teacher:active
+{
+		border-bottom: 4px solid #38a750;
+}
+.top_administrator:hover,.top_administrator:active
+{
+		border-bottom: 4px solid #af45bc;
+}
+
+.top_resources:hover,.top_resources:active
+{
+		border-bottom: 4px solid #f70202;
+}
+.top_personal:hover,.top_personal:active
+{
+		border-bottom: 4px solid #26bc9a;
+}
+
+
+.top_sign,.top_log
+{
+	background-color:#333334; 
+	margin:0 8px;
+	padding:6px;
+	display: inline;
+	border-radius: 3px;
+}
+
+.top_sign:hover,.top_sign:active,.top_log:hover,.top_log:active
+{
+	background-color:#575758;
+}
+
+/*以下是login部分*/
+#no_name,#no_pas,#new_name,#new_password
+{
+	color:red;
+}
+
+#login
+{
+	display:none;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	width: 350px;
+	height: 300px;
+	border: 1px solid #ccc;
+	background-color: #fffff4;
+}
+#sign
+{
+	display:none;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	width: 350px;
+	height: 410px;
+	border: 1px solid #ccc;
+	background-color: #fffff4;
+}
+
+
+
+/* 以下是Notice部分*/
+.Notice
+{
+	margin: 30px auto;
+	width: 90%;
+	height: 75%;
+}
+.Notice_1
+{
+
+	width: 4em;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 5px;
+	background-color: #444;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: 1em;
+	margin-bottom: 10px;
+	float: left;
+}
+.notice_more
+{
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+	font-weight: bold;
+}
+.notice_more_a:hover,.notice_more_a:active
+{
+	color:#aaa; 
+}
+.notice_more_a
+{
+	color:#000;
+	text-decoration: none;
+}
+.Notice_1:hover
+{
+	background-color: #666;
+}
+
+/*公告模板*/
+.Notice_content
+{
+	
+	width: 250px;
+	height: 385px;
+	border: 1px solid #ddd;
+	box-shadow:1px 1px 1px #888;
+	border-radius: 5px;
+}
+.notice_top
+{
+	height: 50px;
+}
+#notice_ul
+{
+	list-style-type: none;
+}
+.notice_li
+{
+	margin: 30px 41px 0 0;
+	display: inline;
+	float: left;
+}
+.content_nav
+{
+	width: 210px;
+	height: 30px;
+	margin:20px auto ;
+	margin-bottom: 0;
+	background-color: #aaa;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding:0 5px;
+	line-height: 35px;
+	color: #222;
+}
+.content_knowmore
+{
+	margin: 0 auto;
+	margin-top:10px;
+	margin-bottom: 10px; 
+	text-align: center;
+	background-color: #aaa;
+	width: 5em;
+	border-radius: 5px;
+	padding: 6px 0;
+}
+.content_knowmore_a
+{
+	text-decoration: none;
+	color: #222	;
+	font-size: 0.7em;
+}
+.content_knowmore:hover,.content_knowmore:active
+{
+	background-color: #999;
+}
+.speaker
+{
+	width: 35px;
+	height: 30px;
+}
+.notice_img
+{
+	margin-left: 50px;
+	float: left;
+}
+.notice_class
+{
+
+	margin-left: 15px;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+.content_title
+{
+	font-weight: bold;
+	margin: 10px auto;
+	text-align: center;
+}
+.content_main
+{
+	width: 230px;
+	height: 240px;
+	margin:0 auto;
+	overflow: hidden;
+	color: #555;
+	text-align: center;	
+	line-height: 1.6em;
+	font-size: 1em;
+}
+
+/*以下是bottom*/
+#bottom
+{
+	clear: both;
+	height: 20px;
+	background-color: #ddd;
+}
