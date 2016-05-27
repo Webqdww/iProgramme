@@ -5,98 +5,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="../css/iProgramme_1.css">
 	<script src="../js/jquery.js"></script>
-	<script type="text/javascript">
-		function openme(){
-        document.getElementById('login').style.display='block';
-        }
-        function closeme(){
-        document.getElementById('login').style.display='none';
-		document.getElementById("no_name").style.display="none";
-		document.getElementById("no_pas").style.display="none";
-        }
-        function logo_in(){
-        //验证
-        //转向...
-        //myform.action=""
-        //myform.submit()
-		var user=document.getElementById("name").value;
-		var pass=document.getElementById("password").value;
-		if(user&&pass)
-		{
-			if(user!="Admin")
-			{
-				document.getElementById("name").value="";
-				document.getElementById("password").value="";
-				document.getElementById("no_name").style.display="";
-			}
-			else
-				if(pass!="12345")
-				{
-					document.getElementById("no_name").style.display="none";
-					document.getElementById("no_pas").style.display="";
-					document.getElementById("password").value="";
-				}
-				else
-				{
-					document.getElementById("no_name").style.display="none";
-					document.getElementById("no_pas").style.display="none";
-			   	    alert("Success!");
-					closeme();
-				}
-		
-		}
-        }
-
-        function opensign(){
-        document.getElementById('sign').style.display='block';
-        }
-         function closesign(){
-        document.getElementById('sign').style.display='none';
-		document.getElementById("new_name").style.display="none";
-		document.getElementById("new_password").style.display="none";
-		document.getElementById("newname").value="";
-		document.getElementById("password1").value="";
-		document.getElementById("password2").value="";
-        }
-        function sign_up(){
-        //验证
-        //转向...
-        //myform.action=""
-        //myform.submit()
-		var user=document.getElementById("newname").value;
-		var pas1=document.getElementById("password1").value;
-		var pas2=document.getElementById("password2").value;
-		
-		
-			if(user=="Admin")
-			{
-				document.getElementById("new_name").style.display="";
-				document.getElementById("new_password").style.display="none";
-				document.getElementById("newname").value="";
-				document.getElementById("password1").value="";
-				document.getElementById("password2").value="";
-			}
-			else
-			if(pas1!=pas2)
-			{
-				document.getElementById("new_name").style.display="none";
-				document.getElementById("new_password").style.display="";
-				document.getElementById("password1").value="";
-				document.getElementById("password2").value="";
-			}
-			else
-			if(pas1!="")
-			{
-				document.getElementById("new_name").style.display="none";
-				document.getElementById("new_password").style.display="none";
-				alert("sign up Success!");
-				document.getElementById("newname").value="";
-				document.getElementById("password1").value="";
-				document.getElementById("password2").value="";
-				closesign();
-			}
-        }
-	</script>
+	<script src="../js/loginsign.js"></script>
 </head>
 <body>
 	<div id="Top">
@@ -169,9 +78,9 @@
 							<div class="notice_img"><img class="speaker" src="../image/speaker.png"></div>
 							<div class="notice_class">公告1</div>
 						</div>
-						<div class="content_title">11111</div>
+						<div class="content_title">ww</div>
 						<div class="content_main">
-						
+						是是是
 						</div>
 						<div class="content_knowmore"><a class="content_knowmore_a" href="">查看详情</a></div>
 					</div>
@@ -217,7 +126,6 @@
 				</li>
 			</ul>
 	</div>
-
-	<div id="Bottom"></div>
+	<div id="Bottom"> </div>
 </body>
 </html>
