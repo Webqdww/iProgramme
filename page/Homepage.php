@@ -17,7 +17,7 @@
 			<li class="top_student"><a id="Stu_a" href="">学生</a></li>
 			<li class="top_teacher"><a id="Tea_a" href="">教师</a></li>
 			<li class="top_administrator"><a id="Adm_a" href="">管理员</a></li>
-			<li class="top_resources"><a id="Res_a" href="">教学资源</a></li>
+			<li class="top_resources"><a id="Res_a" href="source.php">教学资源</a></li>
 			<li class="top_personal"><a id="Per_a" href="">个人资料</a></li>
 		</ul>
 		<ul id="signandlogin_ul">
@@ -68,7 +68,7 @@
 	<div class="Notice">
 		<div class="notice_top">
 			<div class="Notice_1">公告</div>
-			<div class="notice_more"><a class="notice_more_a" href="">查看更多</a></div>
+			<div class="notice_more"><a class="notice_more_a" href="Notice.php">查看更多</a></div>
 		</div>
 		<hr/>
 			<ul id="notice_ul">
@@ -82,7 +82,7 @@
 						<div class="content_main">
 						是是是
 						</div>
-						<div class="content_knowmore"><a class="content_knowmore_a" href="">查看详情</a></div>
+						<div class="content_knowmore"><a class="content_knowmore_a" href="Notice.php">查看详情</a></div>
 					</div>
 				</li>
 				<li class="notice_li">
@@ -95,7 +95,7 @@
 						<div class="content_main">
 							
 						</div>
-						<div class="content_knowmore"><a class="content_knowmore_a" href="">查看详情</a></div>
+						<div class="content_knowmore"><a class="content_knowmore_a" href="Notice.php">查看详情</a></div>
 					</div>
 				</li>
 				<li class="notice_li">
@@ -108,7 +108,7 @@
 						<div class="content_main">
 							
 						</div>
-						<div class="content_knowmore"><a class="content_knowmore_a" href="">查看详情</a></div>
+						<div class="content_knowmore"><a class="content_knowmore_a" href="Notice.php">查看详情</a></div>
 					</div>
 				</li>
 				<li class="notice_li">
@@ -121,11 +121,11 @@
 						<div class="content_main">
 							
 						</div>
-						<div class="content_knowmore"><a class="content_knowmore_a" href="">查看详情</a></div>
+						<div class="content_knowmore"><a class="content_knowmore_a" href="Notice.php">查看详情</a></div>
 					</div>
 				</li>
 			</ul>
 	</div>
-	<div id="Bottom"> </div>
+	<div id="Bottom"></div>
 </body>
 </html>
