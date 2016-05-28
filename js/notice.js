@@ -1,0 +1,15 @@
+$(document).ready(function(){
+$("#today_intro").click(function(){
+    $("#notice_today").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+$("#yest_intro").click(function(){
+    $("#notice_yest").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+$("#week_intro").click(function(){
+    $("#notice_week").slideToggle("slow");
+  });
+});
